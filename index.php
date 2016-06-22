@@ -14,7 +14,7 @@ class page_name extends Plugin
 
     const NAME = __CLASS__;
 
-    const VERSION = '0.2.0-beta';
+    const VERSION = '0.3.0-rc1';
 
     const AUTHOR = 'David Ringsdorf';
 
@@ -71,9 +71,8 @@ class page_name extends Plugin
                         $newName = trim($matches[1]);
                         $CatPage->change_Name($cat, $page, $newName);
                         // Cat mit selbem Namen wie Page auch umschreiben
-                        $catName = $page;
-                        if ($CatPage->exists_CatPage($catName, FALSE)) {
-                            $CatPage->change_Name($catName, FALSE, $newName);
+                        if ($cat === $page) {
+                            $CatPage->change_Name($cat, FALSE, $newName);
                         }
                     }
                 }
