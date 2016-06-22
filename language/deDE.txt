@@ -1,0 +1,7 @@
+info.description.description_header = Beschreibung
+info.description.description_text   = Ist eine im Text vorkommende &Uuml;berschrift (z.B. <code>[ueber1|...]</code>) mit <code>=page_name</code> ausgezeichnet, wird die &Uuml;berschrift auch als Name der Seite verwendet. Zum Beispiel im Menü oder auch in den Suchergebnissen.
+info.description.example_header     = Beispiel
+info.description.example_text_1     = Inhalt der Seite <code>schoene-gaerten</code> in der Kategorie <code>schoene-gaerten</code>:
+info.description.example_text_2     = sch&ouml;ne G&auml;rten
+info.description.licence_header     = Lizenz
+info.placeholder.title              = Die &Uuml;berschrift auch als Seitenname verwenden.
