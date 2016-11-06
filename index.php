@@ -142,14 +142,14 @@ class page_name extends Plugin
     /**
      *
      * @param string $templateName
-     * @param Language $languageOnject
+     * @param Language $languageObject
      * @param array|NULL $param
      * @return string
      */
-    private function _template($templateName, Language $languageOnject = NULL, $param = NULL)
+    private function _template($templateName, Language $languageObject = NULL, $param = NULL)
     {
         ob_start();
-        $t = $languageOnject;
+        $t = $languageObject;
         $p = $param;
         require $this->_pluginTemplateDir . $templateName . '.php';
         return (string) ob_get_clean();
