@@ -14,7 +14,7 @@ class page_name extends Plugin
 
     const NAME = __CLASS__;
 
-    const VERSION = '0.3.0-rc1';
+    const VERSION = '1.0.0';
 
     const AUTHOR = 'David Ringsdorf';
 
