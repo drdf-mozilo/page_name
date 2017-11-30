@@ -4,4 +4,5 @@ info.description.example_header     = Beispiel
 info.description.example_text_1     = Inhalt der Seite <code>schoene-gaerten</code> in der Kategorie <code>schoene-gaerten</code>:
 info.description.example_text_2     = sch&ouml;ne G&auml;rten
 info.description.licence_header     = Lizenz
+info.description.warning            = <mark><strong>⚠️ Hinweis</strong>: Dieses Plugin wird nicht mehr gepflegt!</mark> (Nov. 2017)
 info.placeholder.title              = Die &Uuml;berschrift auch als Seitenname verwenden.

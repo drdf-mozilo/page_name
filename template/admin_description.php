@@ -10,6 +10,7 @@ if (! defined('IS_CMS')) {
  * @license The MIT License (MIT)
  */
 ?>
+<p><?= $t->getLanguageValue('info.description.warning'); ?></p>
 <h1><?= $t->getLanguageValue('info.description.description_header'); ?></h1>
 <p><?= $t->getLanguageValue('info.description.description_text'); ?></p>
 <h2><?= $t->getLanguageValue('info.description.example_header'); ?></h2>
